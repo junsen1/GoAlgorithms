@@ -8,4 +8,6 @@ linters:
     - cyclop
     - gofmt
     - misspell
+output:
+  format: github-actions,colored-line-number:stdout
 
