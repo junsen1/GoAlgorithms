@@ -1,3 +1,4 @@
+# https://github.com/golangci/golangci-lint
 name: Continuous Integration
 on:
   push:
@@ -41,7 +42,7 @@ jobs:
         uses: actions/checkout@v3
         id: checkout
 
-      - name: Setup go environment
+      - name: Setup go environemnt
         uses: actions/setup-go@v3
         id: setup
         with: 
@@ -85,7 +86,7 @@ jobs:
         with:
           fetch-depth: 10
 
-      - name: Setup go environment
+      - name: Setup go environemnt
         uses: actions/setup-go@v3
         id: setup
         with: 
@@ -106,3 +107,4 @@ jobs:
         with: 
           path: ${{ steps.coverage.outputs.report-pathname }}
           if-no-files-found: error
+
