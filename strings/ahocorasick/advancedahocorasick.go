@@ -1,5 +1,5 @@
 package ahocorasick
-
+//test
 import (
 	"fmt"
 	"time"
