@@ -23,12 +23,12 @@ Read our [Contribution Guidelines](CONTRIBUTING.md) before you contribute.
 
 ##### Functions:
 
-1. [`Advanced`](./strings/ahocorasick/advancedahocorasick.go#L11):  Advanced Function performing the Advanced Aho-Corasick algorithm. Finds and prints occurrences of each pattern.
+1. [`Advanced`](./strings/ahocorasick/advancedahocorasick.go#L10):  Advanced Function performing the Advanced Aho-Corasick algorithm. Finds and prints occurrences of each pattern.
 2. [`AhoCorasick`](./strings/ahocorasick/ahocorasick.go#L15):  AhoCorasick Function performing the Basic Aho-Corasick algorithm. Finds and prints occurrences of each pattern.
 3. [`ArrayUnion`](./strings/ahocorasick/shared.go#L86):  ArrayUnion Concats two arrays of int's into one.
 4. [`BoolArrayCapUp`](./strings/ahocorasick/shared.go#L78):  BoolArrayCapUp Dynamically increases an array size of bool's by 1.
 5. [`BuildAc`](./strings/ahocorasick/ahocorasick.go#L54):  Functions that builds Aho Corasick automaton.
-6. [`BuildExtendedAc`](./strings/ahocorasick/advancedahocorasick.go#L47):  BuildExtendedAc Functions that builds extended Aho Corasick automaton.
+6. [`BuildExtendedAc`](./strings/ahocorasick/advancedahocorasick.go#L46):  BuildExtendedAc Functions that builds extended Aho Corasick automaton.
 7. [`ComputeAlphabet`](./strings/ahocorasick/shared.go#L61):  ComputeAlphabet Function that returns string of all the possible characters in given patterns.
 8. [`ConstructTrie`](./strings/ahocorasick/shared.go#L4):  ConstructTrie Function that constructs Trie as an automaton for a set of reversed & trimmed strings.
 9. [`Contains`](./strings/ahocorasick/shared.go#L39):  Contains Returns 'true' if array of int's 's' contains int 'e', 'false' otherwise.
