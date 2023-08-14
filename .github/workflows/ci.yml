@@ -22,10 +22,10 @@ jobs:
         id: checkout
 
       - name: Run Golang CI Lint
-        uses: golangci/golangci-lint-action@v2 # Update to the latest version available
+        uses: golangci/golangci-lint-action@v3
         id: lint
         with: 
-          version: latest # Use the latest version available
+          version: v1.54.1
           only-new-issues: true
 
   golang_test:
